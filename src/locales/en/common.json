@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "Professional Shipment Tracking Platform",
+    "subtitle": "Manage your customers' shipments easily and add tracking service to your website with just one step.",
+    "getStarted": "Get Started",
+    "watchDemo": "Watch How It Works"
+  },
+  "features": {
+    "title": "Our Features",
+    "subtitle": "Everything you need to manage shipments professionally",
+    "customerManagement": {
+      "title": "Customer Management",
+      "description": "Add, edit, and search your customers easily"
+    },
+    "shipmentTracking": {
+      "title": "Shipment Tracking",
+      "description": "Track all your shipments in real-time with status updates"
+    },
+    "autoTracking": {
+      "title": "Auto Tracking Numbers",
+      "description": "Automatically generate unique tracking numbers for each shipment"
+    },
+    "embedWidget": {
+      "title": "Embeddable Widget",
+      "description": "Add tracking functionality to any website with one line of code"
+    },
+    "dashboard": {
+      "title": "Comprehensive Dashboard",
+      "description": "Monitor all your operations from one place"
+    },
+    "multilingual": {
+      "title": "Multi-language Support",
+      "description": "Full support for Arabic and English"
+    },
+    "apiAccess": {
+      "title": "API Access",
+      "description": "Integrate with your systems via RESTful API"
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose TrakoShip?",
+    "speed": "Fast and efficient shipment management",
+    "clarity": "Clear tracking for you and your customers",
+    "simplicity": "Easy to use, no technical knowledge required"
+  },
+  "cta": {
+    "title": "Start Your Free Trial Now",
+    "subtitle": "Join hundreds of shipping companies using TrakoShip",
+    "button": "Start Free Trial"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Flexible pricing for businesses of all sizes",
+    "monthly": "per month",
+    "free": {
+      "name": "Free",
+      "customers": "50 Customers",
+      "shipments": "500 Shipments",
+      "features": "Basic Features",
+      "support": "Community Support"
+    },
+    "basic": {
+      "name": "Basic",
+      "customers": "200 Customers",
+      "shipments": "2,000 Shipments",
+      "features": "All Features",
+      "support": "Email Support"
+    },
+    "pro": {
+      "name": "Pro",
+      "customers": "Unlimited Customers",
+      "shipments": "Unlimited Shipments",
+      "features": "All Features + API",
+      "support": "Priority Support"
+    },
+    "startTrial": "Start Free Trial",
+    "choosePlan": "Choose Plan"
+  },
+  "about": {
+    "title": "About TrakoShip",
+    "mission": {
+      "title": "Our Mission",
+      "content": "We aim to provide small and medium shipping companies with professional tracking tools that were previously only available to large corporations."
+    },
+    "problem": {
+      "title": "The Problem We Solve",
+      "content": "Many small shipping companies struggle to provide real-time tracking to their customers. TrakoShip makes this easy and affordable."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "To become the leading shipment tracking platform for small and medium businesses worldwide."
+    },
+    "values": {
+      "title": "Our Values",
+      "speed": "Speed: Fast response and quick setup",
+      "clarity": "Clarity: Clear information for everyone",
+      "simplicity": "Simplicity: Easy to use for all"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Login",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create Your Account",
+      "companyName": "Company Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "acceptTerms": "I accept the terms and conditions",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "stats": {
+      "totalCustomers": "Total Customers",
+      "activeShipments": "Active Shipments",
+      "delivered": "Delivered",
+      "pending": "Pending"
+    },
+    "recentShipments": "Recent Shipments",
+    "quickActions": {
+      "title": "Quick Actions",
+      "addCustomer": "Add Customer",
+      "addShipment": "Add Shipment"
+    },
+    "customers": {
+      "title": "Customers",
+      "add": "Add Customer",
+      "search": "Search customers...",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "actions": "Actions"
+    },
+    "shipments": {
+      "title": "Shipments",
+      "add": "Add Shipment",
+      "trackingNumber": "Tracking Number",
+      "customer": "Customer",
+      "status": "Status",
+      "origin": "Origin",
+      "destination": "Destination",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": "Company Profile",
+      "plan": "Current Plan",
+      "upgrade": "Upgrade Plan",
+      "embedCode": "Embed Code",
+      "apiKey": "API Key"
+    }
+  },
+  "tracking": {
+    "title": "Track Your Shipment",
+    "enterTracking": "Enter tracking number",
+    "search": "Search",
+    "status": "Status",
+    "origin": "Origin",
+    "destination": "Destination",
+    "estimatedDelivery": "Estimated Delivery",
+    "timeline": "Timeline",
+    "notFound": "Shipment not found"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
+
