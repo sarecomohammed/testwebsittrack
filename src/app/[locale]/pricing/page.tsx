@@ -1,12 +1,16 @@
 import { useTranslations, useLocale } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from './page.module.css';
 
-export default function PricingPage() {
+export default function PricingPage({ params: { locale } }: { params: { locale: string } }) {
+  // Enable static rendering
+  unstable_setRequestLocale(locale);
+  
   const t = useTranslations();
-  const locale = useLocale();
+  const currentLocale = useLocale();
 
   const plans = [
     {
@@ -61,7 +65,7 @@ export default function PricingPage() {
                 >
                   {plan.highlighted && (
                     <div className={styles.badge}>
-                      {locale === 'ar' ? 'الأكثر شعبية' : 'Most Popular'}
+                      {currentLocale === 'ar' ? 'الأكثر شعبية' : 'Most Popular'}
                     </div>
                   )}
                   <h2 className={styles.planName}>{plan.name}</h2>
@@ -88,7 +92,7 @@ export default function PricingPage() {
                     </li>
                   </ul>
                   <Link
-                    href={`/${locale}/register`}
+                    href={`/${currentLocale}/register`}
                     className={`btn ${
                       plan.highlighted ? 'btn-primary' : 'btn-secondary'
                     } ${styles.ctaButton}`}

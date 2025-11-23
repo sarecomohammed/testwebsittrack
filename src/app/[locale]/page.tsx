@@ -1,10 +1,14 @@
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from './page.module.css';
 
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  // Enable static rendering
+  unstable_setRequestLocale(locale);
+  
   return (
     <>
       <Navbar />

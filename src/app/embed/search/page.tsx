@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { format } from 'date-fns';
 import styles from './page.module.css';
@@ -22,7 +22,7 @@ interface TrackingData {
   createdAt: string;
 }
 
-export default function SearchWidgetPage() {
+function SearchWidgetContent() {
   const searchParams = useSearchParams();
   const userId = searchParams.get('userId');
   
@@ -192,6 +192,21 @@ export default function SearchWidgetPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function SearchWidgetPage() {
+  return (
+    <Suspense fallback={
+      <div className={styles.widgetContainer}>
+        <div className={styles.loading}>
+          <div className={styles.spinner}></div>
+          <p>Loading...</p>
+        </div>
+      </div>
+    }>
+      <SearchWidgetContent />
+    </Suspense>
   );
 }
 
